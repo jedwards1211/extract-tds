@@ -11,3 +11,4 @@
 ## Converting Pipe-delimited to CSV
 
 Run `python pipe2csv.py WaterQuality1.txt`, and it will output `WaterQuality1.csv`
+If you do `python pipe2csv.py *.txt`, it will convert all `.txt` files in the directory.  `WaterQuality*.txt` will convert all files starting with `WaterQuality`, and so forth :)
